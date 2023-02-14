@@ -6,10 +6,9 @@ public class fabonacciSeries {
   
       int a=0;
       int b=1;
-      int c=0;
 for(int i =0; i<n;i++){
-    System.out.println(c);
-   c = a+b;
+    System.out.println(a);
+ int  c = a+b;
    a=b;
    b=c;  
     }
